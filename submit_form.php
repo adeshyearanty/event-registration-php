@@ -29,7 +29,7 @@
     <img class="image" src="static/background.jpg" alt="background">
     <div class="main">
         <div class="submitted">
-            <h1 class="success-msg text-center alert-success">You have successfully registered to event : <?= $event ?></h1>
+            <h1 class="text-center alert-success success-msg" style="font-size: 50px">You have successfully registered to event : <br><?= $event ?></h1>
             <a class="submitted-btn btn btn-primary" href="index.php">Go to Home Page</a>
             <a class="submitted-btn btn btn-primary" href="registered_students.php">View Registered Students</a>
         </div>
